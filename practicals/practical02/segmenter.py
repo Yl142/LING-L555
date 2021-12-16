@@ -1,5 +1,7 @@
 import sys
 
 text = sys.stdin.read()
-text.replace(". ",".\n")
-print(text)
+
+result = text.replace(". ", ". \n")
+
+sys.stdout.write(result)
